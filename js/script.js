@@ -14,3 +14,8 @@ function slideshow() {
 }
 
 //Funtion scroll into view when pressed on button
+function intoview() {
+    document.getElementsByClassName('Recommended')[0].scrollIntoView();
+}
+
+document.querySelector('.banner button').addEventListener('click', intoview)
