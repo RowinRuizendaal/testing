@@ -20,8 +20,20 @@ function intoview() {
 }
 //End function Intoview
 
+//Button animations
+function buttonanimationOn() {
+    document.querySelector('.banner button').classList.add('heartbeat');
+   }
+   
+   function buttonanimationOff() {
+    document.querySelector('.banner button').classList.remove('heartbeat');
+   }
+
+//End Button animations
 
 
 
 //Event listeners
 document.querySelector('.banner button').addEventListener('click', intoview) //Event listener scroll into view
+document.querySelector('.banner button').addEventListener('mouseover',buttonanimationOn);
+document.querySelector('.banner button').addEventListener('mouseout',buttonanimationOff);
