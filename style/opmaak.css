@@ -12,10 +12,11 @@ body {
 
 .navbar {
     padding-bottom: 1vh;
-    background-color: #019DC9;
+    background-color: black;
     position: absolute;
     z-index: 1;
     width: 100%;
+    opacity: 0.9;
 }
 
 .main-nav li {
@@ -117,7 +118,7 @@ body {
     height: 535px;
     width: 300px;
     margin: 10px;
-    background-color: #019DC9;
+    background-color: white;
     /* achtergrond kleur lichtblauw */
     list-style: none;
     /* Getting rid of bullet point */
@@ -132,12 +133,24 @@ body {
     height: 100%;
 }
 
+.lijst img:hover {
+    transform: scale(1.03);
+}
+
 
 .caption h4 {
     color: black;
 }
 
 
+/* Animations */
+
+
+
+
+
+
+/*End of animations */
 
 
 @media screen and (min-width: 768px) {
