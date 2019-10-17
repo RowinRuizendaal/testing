@@ -84,6 +84,25 @@ body {
 }
 
 
+.aanbevolen {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #3b444f;
+    font-size: 20px;
+    max-width: 100%;
+    font-weight: 300;
+}
+
+.aanbevolen hr {
+    height: 2px;
+    color: #da0909;
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
 
 .lijst {
     display: grid;
@@ -91,12 +110,11 @@ body {
     grid-template-columns: repeat(auto-fill, auto);
     overflow-x: scroll;
     justify-items: center;
-    grid-gap: 1;
 }
 
 .item {
-    height: 33vh;
-    width: 50vw;
+    height: 56vh;
+    width: 80vw;
     margin: 10px;
     background-color: #019DC9;
     /* achtergrond kleur lichtblauw */

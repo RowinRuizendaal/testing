@@ -12,10 +12,16 @@ function slideshow() {
     section.src = random; //zet src in variable random
 
 }
+//End function slideshow
 
 //Funtion scroll into view when pressed on button
 function intoview() {
-    document.getElementsByClassName('Recommended')[0].scrollIntoView();
+    document.getElementsByClassName('aanbevolen')[0].scrollIntoView();
 }
+//End function Intoview
 
-document.querySelector('.banner button').addEventListener('click', intoview)
+
+
+
+//Event listeners
+document.querySelector('.banner button').addEventListener('click', intoview) //Event listener scroll into view
