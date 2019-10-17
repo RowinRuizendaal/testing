@@ -99,7 +99,7 @@ body {
     width: 15%;
     display: block;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -113,8 +113,8 @@ body {
 }
 
 .item {
-    height: 56vh;
-    width: 80vw;
+    height: 535px;
+    width: 332px;
     margin: 10px;
     background-color: #019DC9;
     /* achtergrond kleur lichtblauw */
@@ -127,7 +127,7 @@ body {
 
 .lijst img {
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 
@@ -176,7 +176,11 @@ body {
     }
 
     .banner button {
-        left: 49%;
+        left: 48%;
+    }
+
+    .item {
+        width: 100%;
     }
 
 }
