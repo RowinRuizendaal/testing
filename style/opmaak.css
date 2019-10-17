@@ -95,10 +95,8 @@ body {
 }
 
 .aanbevolen hr, .komtlater hr {
-    height: 2px;
     color: #da0909;
     width: 15%;
-    display: block;
     margin: auto;
     margin-bottom: 40px;
 }
