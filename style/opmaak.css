@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #F5FCFF;
 }
 
@@ -54,7 +54,6 @@ body {
 }
 
 .banner h1{
-    font-family: "Arial Black", Gadget, sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
     word-spacing: 2px;
@@ -84,16 +83,17 @@ body {
 }
 
 
-.aanbevolen {
-    font-family: 'Open Sans', sans-serif;
+.aanbevolen, .komtlater {
     text-align: center;
     color: #3b444f;
     font-size: 20px;
     max-width: 100%;
     font-weight: 300;
+    display: inline-block;
+    margin-left: 6vw;
 }
 
-.aanbevolen hr {
+.aanbevolen hr, .komtlater hr {
     height: 2px;
     color: #da0909;
     width: 15%;
@@ -110,11 +110,12 @@ body {
     grid-template-columns: repeat(auto-fill, auto);
     overflow-x: scroll;
     justify-items: center;
+    position: relative;
 }
 
 .item {
     height: 535px;
-    width: 332px;
+    width: 300px;
     margin: 10px;
     background-color: #019DC9;
     /* achtergrond kleur lichtblauw */
@@ -122,8 +123,9 @@ body {
     /* Getting rid of bullet point */
     text-align: center;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+
 
 .lijst img {
     width: 100%;
@@ -131,9 +133,19 @@ body {
 }
 
 
+.caption h4 {
+    position: relative;
+    color: black;
+    margin-bottom: 30px;
+}
+
+
+
 
 @media screen and (min-width: 768px) {
     
+
+
 
     .fa-plane {
         margin-top: 0;
@@ -182,5 +194,10 @@ body {
     .item {
         width: 100%;
     }
+
+    .lijst {
+        overflow: hidden;
+    }
+
 
 }
