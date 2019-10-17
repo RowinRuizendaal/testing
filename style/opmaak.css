@@ -52,7 +52,7 @@ body {
     margin-bottom: 40px;
 }
 
-.banner h1 {
+.banner h1{
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 25px;
     letter-spacing: 2px;
@@ -66,9 +66,23 @@ body {
     position: absolute;
     text-align: center;
     top: 60%;
-    left: 5;
+    left: 5%;
     text-shadow: 2px 2px #000000;
 }
+
+.banner button {
+    background-color: transparent;
+    padding: 17px 20px 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 17px;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+
 
 .lijst {
     display: grid;
@@ -139,8 +153,11 @@ body {
     }
 
     .banner h1 {
-        text-align: center;
         left: 33%;
+    }
+
+    .banner button {
+        left: 49%;
     }
 
 }
