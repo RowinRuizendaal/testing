@@ -5,6 +5,13 @@
     scroll-behavior: smooth;
 }
 
+
+:root {
+    --hr-color:#da0909;
+    --h1-color: rgb(44,54,67);
+    --Text-mid: center
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #F5FCFF;
@@ -20,13 +27,13 @@ nav {
 }
 
 nav ul li {
-    text-align: center;
+    text-align: var(--Text-mid);
     text-decoration: none;
     margin: 15px auto;
     list-style: none;
 }
 
-.nav-links {
+nav ul li a {
     color: white;
     text-decoration: none;
 }
@@ -64,7 +71,7 @@ nav img {
     font-variant: small-caps;
     text-transform: uppercase;
     position: absolute;
-    text-align: center;
+    text-align: var(--Text-mid);
     top: 60%;
     left: 5%;
     text-shadow: 2px 2px #000000;
@@ -87,7 +94,7 @@ nav img {
 
 .aanbevolen,
 .komtlater {
-    text-align: center;
+    text-align: var(--Text-mid);
     color: #3b444f;
     font-size: 20px;
     max-width: 100%;
@@ -96,13 +103,14 @@ nav img {
     margin: 4vw;
 }
 
-.aanbevolen hr,
-.komtlater hr {
-    color: #da0909;
+
+hr {
+    color: var(--hr-color);
     width: 15%;
     margin: auto;
     margin-bottom: 40px;
 }
+
 
 
 
@@ -122,7 +130,7 @@ nav img {
     margin: 10px;
     background-color: white;
     list-style: none;
-    text-align: center;
+    text-align: var(--Text-mid);
     color: white;
     margin-bottom: 80px;
 }
@@ -139,9 +147,72 @@ nav img {
 }
 
 
-li section {
+.lijst li section {
     color: black;
 }
+
+
+/* tweede pagina css begint hier */
+
+.WintersportBanner img {
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.WintersportHeader p {
+    color: var(--hr-color);
+    text-align: var(--Text-mid);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.WintersportHeader h1 {
+    color: var(--h1-color);
+    text-align: var(--Text-mid);
+    font-size: 30px;
+    line-height: 1.125px;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+}
+
+.bestemmingen h2 {
+    text-align: var(--Text-mid);
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: var(--h1-color)
+}
+
+.bestemmingen ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 15%;
+    justify-content: right;
+    
+}
+
+.bestemmingen li {
+    width: 40%;
+    list-style-type: none;
+    border: 2px solid #A8A8A8
+}
+
+.bestemmingen li img {
+    width: 60%;
+    flex: 1;
+}
+
+.bestemmingen section {
+
+
+}
+
+
+
+
+/* tweede pagina css eindigt hier */
 
 
 
@@ -284,7 +355,7 @@ li section {
         margin: 0;
     }
 
-    .nav-links {
+    nav ul li a {
         margin-left: 40px;
     }
 
@@ -300,6 +371,11 @@ li section {
     .lijst {
         overflow: hidden;
     }
+
+    .WintersportHeader h1 {
+        font-size: 50px;
+    }
+
 
 
 }
