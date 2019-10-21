@@ -108,7 +108,7 @@ hr {
     color: var(--hr-color);
     width: 15%;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 10vh;
 }
 
 
@@ -186,22 +186,20 @@ hr {
 
 .bestemmingen ul {
     display: flex;
-    /* flex-wrap: nowrap; */
     flex-direction: column;
     margin-left: 15%;
-    justify-content: right;
+    /* justify-content: right; */
     
 }
 
 .bestemmingen li {
-    width: 40%;
-    list-style-type: none;
-    border: 2px solid #A8A8A8
+    width: 85%;
+    list-style-type: none; 
 }
 
 .bestemmingen li img {
-    width: 60%;
-    flex: 1;
+    width: 50%;
+    height: auto;
 }
 
 .bestemmingen section {
@@ -210,6 +208,7 @@ hr {
     width: 40%;
     height: 30%; 
     vertical-align:top;
+    text-align: center;
 
 }
 
