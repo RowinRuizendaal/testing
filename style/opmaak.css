@@ -33,6 +33,10 @@ nav ul li {
     list-style: none;
 }
 
+nav ul li a:focus, .logo:focus {
+    color: var(--hr-color);
+}
+
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -53,6 +57,7 @@ nav img {
     margin-top: 10px;
     margin-left: 20px;
 }
+
 
 
 .banner img {
@@ -91,6 +96,10 @@ nav img {
     /* Werkt in firefox maar geen chrome */
     margin-right: auto;
     left: 45%;
+}
+
+.banner button:focus {
+    background-color: var(--hr-color);
 }
 
 
@@ -406,6 +415,10 @@ hr {
     .bestemmingen li img {
         width: 50%;
         height: 80%;
+    }
+
+    .bestemmingen li {
+        width: 100%;
     }
 
     .bestemmingen section p {
