@@ -136,7 +136,6 @@ hr {
     color: var(--hr-color);
     width: 15%;
     margin: auto;
-    margin-bottom: 10vh;
 }
 
 
@@ -196,6 +195,8 @@ hr {
     font-size: 11px;
 }
 
+
+
 .DuurzaamHeader h1 {
     color: var(--h1-color);
     text-align: var(--Text-mid);
@@ -205,21 +206,25 @@ hr {
     margin-bottom: 40px;
 }
 
-.bestemmingen h2 {
+.DuurzaamHeader h2 {
+    margin-bottom: 10px;
+}
+
+.bestemmingen h2{
     text-align: var(--Text-mid);
     margin-bottom: 10px;
     font-size: 25px;
     color: var(--h1-color)
 }
 
-.bestemmingen ul {
+.bestemmingen ul, .TopRated ul {
     display: flex;
     flex-direction: column;
     margin-left: 15%;
 
 }
 
-.bestemmingen li {
+.bestemmingen li, .TopRated li {
     width: 85%;
     list-style-type: none;
 }
@@ -232,8 +237,8 @@ hr {
 
 
 /* aanpassing hr voor content */
-.bestemmingen section hr {
-    margin-bottom: 10px;
+.DuurzaamHeader hr {
+    margin-bottom: 20px;
 }
 
 /* kap de zin af */
@@ -263,12 +268,24 @@ hr {
     background-color: green;
 }
 
-
-
-
-
-
 /* tweede pagina css eindigt hier */
+
+
+
+/* derde pagina css begint hier */
+
+.DuurzaamHeader p:nth-of-type(2) {
+    color: var(--h1-color);
+    text-align: var(--Text-mid);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6;
+    display: block;
+}
+
+
+
+/* derde pagina css eindigt hier */
 
 
 
