@@ -12,6 +12,25 @@ https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-conta
 https://css-tricks.com/almanac/properties/h/hyphenate/<br>
 https://css-tricks.com/overriding-default-button-styles/<br>
 https://stackoverflow.com/questions/2187008/styling-an-anchor-tag-to-look-like-a-submit-button<br>
+https://stackoverflow.com/questions/20626685/better-way-to-set-distance-between-flexbox-items<br>
+http://animista.net/<br>
+https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-left-align-flex-items https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535<br>
+https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf https://www.nomadicmatt.com/travel-guides/italy-travel-tips/ Informatie over italie gebruikt<br>
+https://www.w3schools.com/howto/howto_css_table_responsive.asp<br>
+https://www.w3schools.com/howto/howto_css_login_form.asp<br>
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form<br>
+https://www.w3schools.com/w3css/w3css_input.asp<br>
+https://oege.ie.hva.nl/~ruizenr1/Tiger/js/tiger.js<br>
+https://developer.mozilla.org/en-US/docs/Web/API/NodeList<br>
+https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Errors/Not_a_function<br>
+https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault<br>
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows<br>
+https://css-tricks.com/snippets/css/complete-guide-grid/<br>
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br>
+https://css-tricks.com/almanac/selectors/r/required/<br>
+https://www.w3schools.com/cssref/sel_required.asp<br>
+
+Samengewerkt met Sam de Kanter voor de overflow X (scrollbaar voor mobiel)<br>
 
 
 
