@@ -182,13 +182,13 @@ hr {
 
 /* tweede pagina css begint hier */
 
-.WintersportBanner img {
+.DuurzaamBanner img {
     height: 80vh;
     width: 100%;
     margin-bottom: 40px;
 }
 
-.WintersportHeader p {
+.DuurzaamHeader p {
     color: var(--hr-color);
     text-align: var(--Text-mid);
     margin-bottom: 25px;
@@ -196,7 +196,7 @@ hr {
     font-size: 11px;
 }
 
-.WintersportHeader h1 {
+.DuurzaamHeader h1 {
     color: var(--h1-color);
     text-align: var(--Text-mid);
     font-size: 30px;
@@ -259,6 +259,8 @@ hr {
 .bestemmingen section a:hover,
 .bestemmingen section a:focus{
     box-shadow: 5px 5px var(--Box-Shadow);
+    border-radius: 12px;
+    background-color: green;
 }
 
 
@@ -428,7 +430,7 @@ hr {
         overflow: hidden;
     }
 
-    .WintersportHeader h1 {
+    .DuurzaamHeader h1 {
         font-size: 50px;
     }
 
