@@ -9,7 +9,8 @@
 :root {
     --hr-color: #da0909;
     --h1-color: rgb(44, 54, 67);
-    --Text-mid: center
+    --Text-mid: center;
+    --Box-Shadow: #888888;
 }
 
 
@@ -18,8 +19,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-    {
+h6 {
     color: var(--h1-color);
     text-align: var(--Text-mid);
 }
@@ -36,7 +36,6 @@ nav {
     padding-bottom: 1vh;
     background-color: black;
     position: absolute;
-    z-index: 1;
     width: 100%;
     opacity: 0.9;
 }
@@ -253,8 +252,16 @@ hr {
     text-decoration: none;
     display: inline-block;
     background-color: var(--hr-color);
-    padding: .5em;
+    padding: .3em;
+    margin-bottom: 20vh;
 }
+
+.bestemmingen section a:hover,
+.bestemmingen section a:focus{
+    box-shadow: 5px 5px var(--Box-Shadow);
+}
+
+
 
 
 
