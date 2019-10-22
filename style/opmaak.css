@@ -283,7 +283,21 @@ hr {
     display: block;
 }
 
+.detail article {
+    padding-top: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: auto;
+    width: 100%;
 
+}
+
+.detail article p {
+    margin-bottom: 5px;
+
+}
 
 /* derde pagina css eindigt hier */
 
