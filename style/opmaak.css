@@ -10,6 +10,7 @@
     --hr-color: #da0909;
     --h1-color: rgb(44, 54, 67);
     --Text-mid: center;
+    --Hover-Color: #e03232;
     --Box-Shadow: #888888;
 }
 
@@ -264,8 +265,7 @@ hr {
 .bestemmingen section a:hover,
 .bestemmingen section a:focus{
     box-shadow: 5px 5px var(--Box-Shadow);
-    border-radius: 12px;
-    background-color: green;
+    background-color: var(--Hover-Color);
 }
 
 /* tweede pagina css eindigt hier */
