@@ -23,7 +23,7 @@
   }
   
   window.onload = function() {
-      weatherBalloon(3196359);
+      weatherBalloon(3196359); //Specific id of country/place
   }
  
 
