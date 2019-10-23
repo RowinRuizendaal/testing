@@ -329,6 +329,10 @@ hr {
     margin: auto;
 }
 
+
+
+
+
 /* derde pagina css eindigt hier */
 
 
@@ -369,6 +373,13 @@ select {
     background-position-x: auto;
     background-color: transparent;
     color: black;
+}
+
+select:active, select:focus {
+    background-color: var(--Hover-Color);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .zichtbaar {

@@ -1,6 +1,6 @@
 let state = 'Show';
 var section = document.querySelector('.filter form');
-
+var button = document.querySelector('.DuurzaamHeader button');
 
 function slider() {
 
@@ -27,7 +27,17 @@ function theme() {
     document.querySelector('body').classList.toggle('donkerThema');
 }
 
+function heartbeatOn() {
+    button.classList.add('heartbeat');
+}
 
+function heartbeatOff() {
+    button.classList.remove('heartbeat');
+}
+
+//animations on and off
+button.addEventListener('mouseover', heartbeatOn);
+button.addEventListener('mouseout', heartbeatOff);
 
 
 
