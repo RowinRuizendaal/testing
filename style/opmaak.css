@@ -211,21 +211,23 @@ hr {
     margin-bottom: 10px;
 }
 
-.bestemmingen h2{
+.bestemmingen h2 {
     text-align: var(--Text-mid);
     margin-bottom: 10px;
     font-size: 25px;
     color: var(--h1-color)
 }
 
-.bestemmingen ul, .TopRated ul {
+.bestemmingen ul,
+.TopRated ul {
     display: flex;
     flex-direction: column;
     margin-left: 15%;
 
 }
 
-.bestemmingen li, .TopRated li {
+.bestemmingen li,
+.TopRated li {
     width: 85%;
     list-style-type: none;
 }
@@ -263,7 +265,7 @@ hr {
 }
 
 .bestemmingen section a:hover,
-.bestemmingen section a:focus{
+.bestemmingen section a:focus {
     box-shadow: 5px 5px var(--Box-Shadow);
     background-color: var(--Hover-Color);
 }
@@ -299,7 +301,92 @@ hr {
 
 }
 
+.DuurzaamHeader button {
+    display: block;
+    margin: auto;
+}
+
 /* derde pagina css eindigt hier */
+
+
+/* Formulier styling */
+.filter div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toggle{
+    display: none;
+}
+
+.FormActive {
+    width: 90vw;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+input[type='text'],
+select {
+    width: 100%;
+    padding: 16px 25px;
+    border-radius: 10px;
+    color: white;
+    border: solid 1.5px var(--Hover-Color);
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 20vw;
+    margin: auto;
+    background: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: auto;
+    background-color: transparent;
+    color: black;
+}
+
+.zichtbaar {
+    display: none;
+}
+
+
+label {
+    color: black;
+    display: flex;
+}
+
+
+
+fieldset {
+    border: 0;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+}
+
+fieldset p {
+    color: black;
+    text-align: var(--Text-mid);
+}
+
+fieldset input[type='submit'], .filter button, .DuurzaamHeader button{
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 16px 32px;
+    background-color: var(--Hover-Color);
+    border-radius: 7px;
+    color: white;
+    border: solid 1.5px rgba(0,0,0,0);
+    margin-bottom: 30px;
+}
+
+fieldset input[type='submit']:hover, .DuurzaamHeader button:hover  {
+    box-shadow: 5px 5px var(--Box-Shadow);
+    background-color: var(--Hover-Color);
+}
 
 
 
@@ -415,7 +502,8 @@ hr {
 @media screen and (min-width: 768px) {
 
 
-    .aanbevolen, .komtlater {
+    .aanbevolen,
+    .komtlater {
         overflow-x: hidden;
     }
 

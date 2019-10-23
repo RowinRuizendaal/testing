@@ -20,20 +20,15 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Products</a>
+                    <a href="#">Bestemmingen</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="#">Over ons</a>
                 </li>
 
                 <li>
-                    <a href="#">Contact Us</a>
+                    <a href="#">Contacteer ons</a>
                 </li>
-
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-
                 <li>
                     <a href="#">Login</a>
                 </li>
@@ -53,8 +48,43 @@
             <h1>Duurzame vakantie</h1>
             <h2>Bestemmingen voor duurzame vakantie</h2>
             <hr>
+            <button>Gebruik filter</button>
         </section>
 
+
+        <section class="filter">
+            <!--hier komt het filter systeem-->
+            <form action="GET" class="toggle">
+                <fieldset>
+                    <legend>Locatie</legend>
+                    <div>
+                            <label for="bestemming">Bestemming</label><br>
+                        <select placeholder="kies bestemming">
+                            <option selected="selected" class="zichtbaar">kies een land</option>
+                            <option value="Ljubljana">Ljubljana</option>
+                            <option value="Guyana">Guyana</option>
+                            <option value="Lord Howe Island">Lord Howe Island</option>
+                            <option value="Vancouver">Vancouver</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Uganda">Uganda</option>
+                          </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend></legend>
+                    <label for="prijs">Prijs</label>
+                    <input type="range" min="500" max="2000" value="100" id='prijsrange'>
+                    <p id="Value"></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>zoeken</legend>
+                    <input type="submit" value="Zoeken">
+                    <label for="zoeken"></label>
+                </fieldset>
+            </form>
+        </section>
 
         <section class="bestemmingen">
 
@@ -115,7 +145,7 @@
                             Het eiland is te bereiken door een vliegreis van twee uur vanaf Sydney of Brisbane.
 
                             In de buurt van Lord Howe-eiland liggen Ball's Pyramid en Wolf Rock. </p>
-                            <a href="#">
+                        <a href="#">
                             <p>lees meer</p>
                         </a>
                     </section>
@@ -136,7 +166,7 @@
                             Vancouver is een van de belangrijkste ter wereld. Door de lage productiekosten is het ook de
                             derde stad van Noord-Amerika als het gaat om de filmindustrie, na Los Angeles en New York.
                             Hierdoor wordt Vancouver soms ook wel Noord Hollywood genoemd. </p>
-                            <a href="#">
+                        <a href="#">
                             <p>lees meer</p>
                         </a>
                     </section>
@@ -153,7 +183,7 @@
                             naam die de inwoners aan hun eigen land geven is Druk Tsendhen wat het land van de
                             donderdraak betekent. Van de donder wordt gezegd dat dat het brullen zijn van de Chinese
                             draken. </p>
-                            <a href="#">
+                        <a href="#">
                             <p>lees meer</p>
                         </a>
                     </section>
@@ -173,7 +203,7 @@
                             Oeganda nog vier andere koninkrijken: Ankole, Bunyoro-Kitara, Busoga en Toro.
 
                             Staatshoofd is sinds 1986 president Yoweri Kaguta Museveni. </p>
-                            <a href="#">
+                        <a href="#">
                             <p>lees meer</p>
                         </a>
                     </section>
@@ -203,6 +233,7 @@
 
 
     </main>
+    <script src="js/slider.js"></script>
 </body>
 
 
