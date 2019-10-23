@@ -1,15 +1,13 @@
 
 
-  //Eerste reeks
-  var LjubljanaWolk = document.querySelector('.bestemmingen section div');
-  var LjubljanaGraden = document.querySelector('.bestemmingen section section h1');
-  //einde eerste reeks
-  
+//https://bytemaster.io/fetch-weather-openweathermap-api-javascript
 
-   //tweede reeks
-   var GuyanaWolk = document.querySelector('.bestemmingen section div');
-   var GuyanaGraden = document.querySelector('.bestemmingen section section h1');
-   //tweede eerste reeks
+
+  //Eerste reeks
+  var LjubljanaWolk = document.querySelector('.detail section div');
+  var LjubljanaGraden = document.querySelector('.detail section h1');
+  //einde eerste reeks
+
 
 
   function weatherBalloon(cityID) {
@@ -32,6 +30,6 @@
 
   function drawWeather( d ) {
 	var celcius = Math.round(parseFloat(d.main.temp)-273.15);	 //Reken uit naar celcius
-	document.querySelector('.bestemmingen section section div').innerHTML = d.weather[0].description; //vul eerste
-	document.querySelector('.bestemmingen section section h1').innerHTML = celcius + '&deg;'; //vul tweede 
+	LjubljanaWolk.innerHTML = d.weather[0].description; //vul eerste
+	LjubljanaGraden.innerHTML = celcius + '&deg;'; //vul tweede 
 }

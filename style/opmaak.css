@@ -304,6 +304,13 @@ hr {
 
 
 
+/* API */
+.detail section div {
+    text-align: center;
+}
+
+
+
 /* Animations */
 
 .heartbeat {
