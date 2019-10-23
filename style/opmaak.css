@@ -6,12 +6,20 @@
 }
 
 
-:root {
+body {
     --hr-color: #da0909;
     --h1-color: rgb(44, 54, 67);
     --Text-mid: center;
     --Hover-Color: #e03232;
     --Box-Shadow: #888888;
+}
+
+.donkerThema {
+    --hr-color: black;
+    --h1-color: black;
+    --Text-mid: center;
+    --Hover-Color: darkblue;
+    --Box-Shadow: white;
 }
 
 
@@ -46,6 +54,20 @@ nav ul li {
     text-decoration: none;
     margin: 15px auto;
     list-style: none;
+}
+
+.aanbevolen button {
+    background-image: url('../img/Theme.svg');
+    padding: 15px;
+    background-repeat: no-repeat;
+    max-width: 10px;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    
+
 }
 
 nav ul li a:focus,

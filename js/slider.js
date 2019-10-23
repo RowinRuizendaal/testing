@@ -23,6 +23,11 @@ function Filter() {
     console.log(state);
 }
 
+function theme() {
+    document.querySelector('body').classList.toggle('donkerThema');
+}
+
+
 
 
 
