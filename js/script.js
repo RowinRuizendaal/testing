@@ -1,5 +1,5 @@
 //slideshow
-var images = ['img/1.jpg', 'img/2.jpg','img/3.jpg', 'img/4.jpg', 'img/5.jpg']; //images
+var images = ['img/1.jpg', 'img/2.jpg', 'img/3.jpg', 'img/4.jpg', 'img/5.jpg']; //images
 var section = document.querySelector('.banner img'); //query selector
 var interval = setInterval(slideshow, 3000); //interval
 //End of slideshow
@@ -28,11 +28,11 @@ function theme() {
 //Button animations
 function buttonanimationOn() {
     document.querySelector('.banner button').classList.add('heartbeat');
-   }
-   
-   function buttonanimationOff() {
+}
+
+function buttonanimationOff() {
     document.querySelector('.banner button').classList.remove('heartbeat');
-   }
+}
 
 //End Button animations
 
@@ -41,5 +41,5 @@ function buttonanimationOn() {
 //Event listeners
 document.querySelector('.aanbevolen button').addEventListener('click', theme);
 document.querySelector('.banner button').addEventListener('click', intoview) //Event listener scroll into view
-document.querySelector('.banner button').addEventListener('mouseover',buttonanimationOn); //Event listener click
-document.querySelector('.banner button').addEventListener('mouseout',buttonanimationOff); //Event listener click
+document.querySelector('.banner button').addEventListener('mouseover', buttonanimationOn); //Event listener click
+document.querySelector('.banner button').addEventListener('mouseout', buttonanimationOff); //Event listener click
