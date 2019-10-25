@@ -57,7 +57,7 @@ nav ul li {
 }
 
 .aanbevolen button {
-    background-image: url('../img/test.svg');
+    background-image: url('../img/maan.svg');
     background-color: transparent;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -68,6 +68,7 @@ nav ul li {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 
 
@@ -433,6 +434,21 @@ fieldset input[type='submit']:hover, .DuurzaamHeader button:hover  {
 .detail section div {
     text-align: center;
 }
+
+/* Einde API */
+
+
+/* Footer */
+footer {
+    text-align: var(--Text-mid);
+    background-color: black;
+    opacity: 0.9;
+    height: 4vh;
+    color: white;
+}
+
+
+/* Einde footer */
 
 
 
