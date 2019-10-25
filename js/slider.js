@@ -23,9 +23,6 @@ function Filter() {
     console.log(state);
 }
 
-function theme() {
-    document.querySelector('body').classList.toggle('donkerThema');
-}
 
 function heartbeatOn() {
     button.classList.add('heartbeat');

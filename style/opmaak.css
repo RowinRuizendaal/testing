@@ -57,18 +57,22 @@ nav ul li {
 }
 
 .aanbevolen button {
-    background-image: url('../img/Theme.svg');
-    padding: 15px;
+    background-image: url('../img/test.svg');
+    background-color: transparent;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     max-width: 10px;
     display: inline-block;
     border: none;
-    padding: 1rem 2rem;
+    padding: 1.2rem 2rem;
     text-decoration: none;
     cursor: pointer;
-
-
 }
+
+
+
+
+
 
 nav ul li a:focus,
 .logo:focus,

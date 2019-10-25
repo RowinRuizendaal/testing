@@ -19,6 +19,12 @@ function intoview() {
 }
 //End function Intoview
 
+function theme() {
+    document.querySelector('body').classList.toggle('donkerThema');
+}
+
+
+
 //Button animations
 function buttonanimationOn() {
     document.querySelector('.banner button').classList.add('heartbeat');
@@ -33,6 +39,7 @@ function buttonanimationOn() {
 
 
 //Event listeners
+document.querySelector('.aanbevolen button').addEventListener('click', theme);
 document.querySelector('.banner button').addEventListener('click', intoview) //Event listener scroll into view
 document.querySelector('.banner button').addEventListener('mouseover',buttonanimationOn); //Event listener click
 document.querySelector('.banner button').addEventListener('mouseout',buttonanimationOff); //Event listener click
