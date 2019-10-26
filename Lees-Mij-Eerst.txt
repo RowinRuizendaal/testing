@@ -1,0 +1,8 @@
+Beste Danny,
+
+Hierbij lever ik mijn frontend opdracht in, ik heb er een api in gestopt
+als de api niet zichtbaar is kan dit zijn door de 'Free' limitation die het dan overschrijft ik heb de images geprobeerd
+te comprimeren maar helaas waren sommige images alsnog te groot, excuus voor het laden.
+
+https://github.com/RowinRuizendaal/testing
+https://rowinruizendaal.github.io/testing/
