@@ -29,6 +29,13 @@ https://css-tricks.com/snippets/css/complete-guide-grid/<br>
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br>
 https://css-tricks.com/almanac/selectors/r/required/<br>
 https://www.w3schools.com/cssref/sel_required.asp<br>
+https://www.w3schools.com/howto/howto_css_custom_checkbox.asp<br>
+http://jsfiddle.net/5g3w32ug/<br>
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox<br>
+https://codepen.io/spacemonkey/pen/vmZROv<br>
+
+
+
 
 Samengewerkt met Sam de Kanter voor de overflow X (scrollbaar voor mobiel)<br>
 

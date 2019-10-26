@@ -228,8 +228,7 @@ hr {
 .DuurzaamHeader h1 {
     color: var(--h1-color);
     text-align: var(--Text-mid);
-    font-size: 30px;
-    line-height: 1.125px;
+    font-size: 50px;
     letter-spacing: -1px;
     margin-bottom: 40px;
 }
@@ -382,17 +381,17 @@ select {
 
 
 .checkbox {
-display: inline-block;
-position: relative;
-padding-left: 30px;
-margin-bottom: .8rem;
-width: auto;
-margin-right: 1rem;
-cursor: pointer;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: .8rem;
+    width: auto;
+    margin-right: 1rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .checkbox input {
@@ -421,19 +420,19 @@ user-select: none;
     background-color: var(--Box-Shadow);
 }
 
-.checkbox input:checked ~ .checkmark::after {
+.checkbox input:checked~.checkmark::after {
     display: block;
     border: 1px solid white;
     border-top: none;
-   border-right: none;
-   webkit-transform: rotate(-45deg);
-   -moz-transform: rotate(-45deg);
-   -o-transform: rotate(-45deg);
-   -ms-transform: rotate(-45deg);
-   transform: rotate(-45deg);
+    border-right: none;
+    webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
-.checkbox input:checked ~ .checkmark {
+.checkbox input:checked~.checkmark {
     background-color: var(--Hover-Color);
 
 }
@@ -689,9 +688,6 @@ footer {
         overflow: hidden;
     }
 
-    .DuurzaamHeader h1 {
-        font-size: 50px;
-    }
 
     .bestemmingen section {
         flex-direction: row;
