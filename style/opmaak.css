@@ -380,6 +380,81 @@ select {
     color: black;
 }
 
+
+.checkbox {
+display: inline-block;
+position: relative;
+padding-left: 30px;
+margin-bottom: .8rem;
+width: auto;
+margin-right: 1rem;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--Box-Shadow);
+}
+
+.checkbox input:checked ~ .checkmark::after {
+    display: block;
+    border: 1px solid white;
+    border-top: none;
+   border-right: none;
+   webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+.checkbox input:checked ~ .checkmark {
+    background-color: var(--Hover-Color);
+
+}
+
+.checkbox .checkmark::after {
+    left: 7px;
+    top: 3px;
+    width: 20px;
+    height: 10px;
+    border: solid var(--Box-Shadow);
+    border-width: 0 3px 3px 0;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+
 select:active,
 select:focus {
     background-color: var(--Hover-Color);
