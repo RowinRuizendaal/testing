@@ -33,6 +33,8 @@ https://www.w3schools.com/howto/howto_css_custom_checkbox.asp<br>
 http://jsfiddle.net/5g3w32ug/<br>
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox<br>
 https://codepen.io/spacemonkey/pen/vmZROv<br>
+https://stackoverflow.com/questions/53164784/how-to-use-the-fetch-api-method-on-open-weather-api<br>
+
 
 
 
