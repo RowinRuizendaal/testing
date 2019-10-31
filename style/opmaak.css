@@ -75,6 +75,7 @@ nav ul li {
 
 
 
+
 nav ul li a:focus,
 .logo:focus,
 nav ul li a:hover,
@@ -111,6 +112,8 @@ nav img {
     margin-bottom: 40px;
 }
 
+
+
 .banner h1 {
     font-size: 25px;
     letter-spacing: 2px;
@@ -137,14 +140,27 @@ nav img {
     color: white;
     position: absolute;
     top: 80%;
-    /* margin-left: auto; */
-    /* Werkt in firefox maar geen chrome */
     margin-right: auto;
     left: 45%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.banner button:hover{
+    opacity: 1;
 }
 
 .banner button:focus {
     background-color: var(--hr-color);
+}
+
+.DuurzaamHeader button {
+    opacity: 0.9;
+    transition: 1s; 
+}
+
+.DuurzaamHeader button:hover {
+    opacity: 1;
 }
 
 
@@ -199,6 +215,7 @@ hr {
 
 .lijst img:hover {
     transform: scale(1.03);
+    transition:all 0.3s ease;
 }
 
 
@@ -288,12 +305,15 @@ hr {
     background-color: var(--hr-color);
     padding: .3em;
     margin-bottom: 20vh;
+    opacity: 0.9;
+    transition: 1s;
 }
 
 .bestemmingen section a:hover,
 .bestemmingen section a:focus {
     box-shadow: 5px 5px var(--Box-Shadow);
     background-color: var(--Hover-Color);
+    opacity: 1;
 }
 
 /* tweede pagina css eindigt hier */

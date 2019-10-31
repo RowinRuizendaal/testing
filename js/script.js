@@ -10,6 +10,7 @@ function slideshow() {
     var random = images[Math.floor(Math.random() * images.length)]; //pak random
     section.src = random; //zet src in variable random
 
+
 }
 //End function slideshow
 
